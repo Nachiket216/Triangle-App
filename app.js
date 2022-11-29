@@ -12,9 +12,9 @@ isTriangleBtn.addEventListener("click", () => {
 function sumOfAngles(angle1, angle2, angle3) {
   const sumOfAngles = angle1 + angle2 + angle3;
   if (sumOfAngles == 180) {
-    outputE1.innerText = "Yay";
+    outputE1.innerText = "Yay! Its a triangle 🙌";
   } else {
-    outputE1.innerText = "oh oh";
+    outputE1.innerText = "Sorry,try different numbers";
   }
 }
 

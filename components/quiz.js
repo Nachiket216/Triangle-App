@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-form")
 const submitAnswerBtn = document.querySelector("#submit-answer-btn")
 const outputE1 = document.querySelector("#output")
 
-const correctAnswers = ["90°","Right Angle"]
+const correctAnswers = ["90°","Right Angle","Equilateral","36","Corresponding angles are congurent."]
 
 submitAnswerBtn.addEventListener("click" ,()=>{
     let score = 0;

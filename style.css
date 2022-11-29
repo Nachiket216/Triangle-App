@@ -15,6 +15,11 @@
     background-color: var(--back-color);
     color: #ffffff;
   }
+
+  .question{
+    text-align: left;
+    padding-left: 0.5rem;
+  }
   
   hr {
     margin: 2rem 0rem;
@@ -59,6 +64,7 @@
     color: black;
     padding: 2rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
 
   .navigation .nav-brand {
@@ -162,6 +168,7 @@ label{
     padding: 2rem 1rem;
     text-align: center;
     color: black;
+    border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
   }
   
